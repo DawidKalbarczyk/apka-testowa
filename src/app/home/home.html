@@ -1,1 +1,7 @@
-<p>home works!</p>
+<app-greeting [message]="message()"></app-greeting>
+<app-counter></app-counter>
+<input 
+    class="input-field"
+    placeholder="Enter text..." 
+    type="text" 
+    (keyup)="keyUpHandler($event)">
